@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Airflow logs and generated configuration
+logs/
+config/airflow.cfg
+
+# Local files
+.DS_Store
+.idea/
+.vscode/
